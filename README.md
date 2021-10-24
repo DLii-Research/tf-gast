@@ -2,7 +2,7 @@
 
 This repository is an unofficial Tensorflow/Keras implementation of the *Generative Adversarial Set Transformer* framework from the paper: https://www.ml.informatik.tu-darmstadt.de/papers/stelzner2020ood_gast.pdf.
 
-~[Training GAST Animation](./images/training.gif)
+![Training GAST Animation](./images/training.gif)
 
 ## Dependencies
 
