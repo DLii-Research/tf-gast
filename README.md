@@ -8,6 +8,8 @@ This repository is an unofficial Tensorflow/Keras implementation of the *Generat
 
 This repository depends on the implementation of [Set Transformers](https://arxiv.org/abs/1810.00825) found in the unofficial repository: https://github.com/DLii-Research/tf-set-transformer
 
-## Implementation Notes:
+## AC-GAST
 
-* While the original GAST implementation is capable of varying the number of generated points in each point cloud, this implementation is currently incapable varying set cardinalities. As a result, all of the generated point clouds contain the maximum number of points in a given set.
+![AC-GAST](./images/acgast.png)
+
+This repository includes a notebook that implements an Auxiliary-Classifier GAN model using the GAST framework. The figure above are the result of running 27 epochs.
